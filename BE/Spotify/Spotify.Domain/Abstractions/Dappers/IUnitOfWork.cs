@@ -1,6 +1,8 @@
-﻿namespace Spotify.Domain.Abstractions.Dappers;
+﻿using Spotify.Domain.Abstractions.Dappers.Repositories.Product;
+
+namespace Spotify.Domain.Abstractions.Dappers;
 
 public interface IUnitOfWork
 {
-        IProductRepository ProductRepository { get; }
+        IProductRepository Products{ get; }
 }

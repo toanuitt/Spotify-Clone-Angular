@@ -6,4 +6,17 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.72" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.5" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Spotify.Application\Spotify.Application.csproj" />
+    <ProjectReference Include="..\Spotify.Domain\Spotify.Domain.csproj" />
+    <ProjectReference Include="..\Spotify.Persistence\Spotify.Persistence.csproj" />
+  </ItemGroup>
+
 </Project>
