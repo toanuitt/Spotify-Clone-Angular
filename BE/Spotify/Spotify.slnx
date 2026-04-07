@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/Solution items/">
+    <File Path=".gitignore" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="Spotify.API/Spotify.API.csproj" />
+    <Project Path="Spotify.Application/Spotify.Application.csproj" />
+    <Project Path="Spotify.Contract/Spotify.Contract.csproj" />
+    <Project Path="Spotify.Domain/Spotify.Domain.csproj" />
+    <Project Path="Spotify.Infrastructure/Spotify.Infrastructure.csproj" />
+    <Project Path="Spotify.Persistence/Spotify.Persistence.csproj" />
+    <Project Path="Spotify.Presentation/Spotify.Presentation.csproj" />
+  </Folder>
+</Solution>
