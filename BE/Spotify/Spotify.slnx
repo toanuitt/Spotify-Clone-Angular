@@ -11,6 +11,5 @@
     <Project Path="Spotify.Domain/Spotify.Domain.csproj" />
     <Project Path="Spotify.Infrastructure/Spotify.Infrastructure.csproj" />
     <Project Path="Spotify.Persistence/Spotify.Persistence.csproj" />
-    <Project Path="Spotify.Presentation/Spotify.Presentation.csproj" />
   </Folder>
 </Solution>

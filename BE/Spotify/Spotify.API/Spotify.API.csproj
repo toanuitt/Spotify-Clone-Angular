@@ -7,7 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Asp.Versioning.Mvc.ApiExplorer" Version="8.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Spotify.Application\Spotify.Application.csproj" />
+    <ProjectReference Include="..\Spotify.Contract\Spotify.Contract.csproj" />
+    <ProjectReference Include="..\Spotify.Infrastructure\Spotify.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
