@@ -1,6 +1,6 @@
 ﻿namespace Spotify.Domain.Abstractions;
 
-public interface IUnitOfWork : IDisposable
+public interface IUnitOfWork : IAsyncDisposable
 {
     /// <summary>
     /// Call save change from db context
